@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="42998" started-at="2021-09-17T12:24:35 IST" finished-at="2021-09-17T12:25:18 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="20984" started-at="2021-09-17T12:24:35 IST" finished-at="2021-09-17T12:24:56 IST">
+      <class name="com.picnic.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.picnic.CrossBrowserScript@5cdf39b2]" name="setup" is-config="true" duration-ms="4624" started-at="2021-09-17T12:24:35 IST" finished-at="2021-09-17T12:24:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.picnic.CrossBrowserScript@5cdf39b2]" name="testParameterWithXML" duration-ms="16287" started-at="2021-09-17T12:24:40 IST" finished-at="2021-09-17T12:24:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picnic.CrossBrowserScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="21983" started-at="2021-09-17T12:24:56 IST" finished-at="2021-09-17T12:25:18 IST">
+      <class name="com.picnic.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.picnic.CrossBrowserScript@1f6d27cc]" name="setup" is-config="true" duration-ms="6014" started-at="2021-09-17T12:24:56 IST" finished-at="2021-09-17T12:25:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.picnic.CrossBrowserScript@1f6d27cc]" name="testParameterWithXML" duration-ms="15968" started-at="2021-09-17T12:25:02 IST" finished-at="2021-09-17T12:25:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picnic.CrossBrowserScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
